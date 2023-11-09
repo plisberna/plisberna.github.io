@@ -1,0 +1,158 @@
+.container__full__series {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #151e33;
+}
+
+.title__serie {
+    text-align: center;
+    color: red;
+}
+
+.form__container__serie {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.input__serie {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button__search__serie {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+}
+
+.button__search__serie:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/*estilos reproductor trailer*/
+.viewtrailer__serie {
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.boton {
+    background-color: #0f1014;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.reproductor {
+    width: 100%;
+    height: 600px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.text-white {
+    color: white;
+}
+
+
+
+/*estilos cards*/
+
+.container_serie {
+    max-width: 1440px;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+.delete {
+    background-color: red;
+}
+
+.serie_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.serie_card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    gap: 5px;
+}
+
+.serie__card__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie_card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    margin-bottom: 5px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    .serie-list {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .serie-card {
+        padding: 10px;
+    }
+
+    .serie-card h2 {
+        font-size: 16px;
+    }
+
+}

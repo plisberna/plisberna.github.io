@@ -1,0 +1,37 @@
+.nabvar__nabvar {
+    background-color: #151e33;
+}
+
+
+.navbar-toggler{
+    background-color: #f089a0;
+}
+
+.button__Plis_Movies_Series {
+    background-color: #e3627f;
+    padding: 1rem;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button__nabvar {
+       width: 100%;
+        background-color: #f3f3f4;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        padding: 10px 15px;
+        font-weight: bold;
+}
+.button__nabvar:hover {
+    background-color: white;
+    border: 1px solid #f3f3f4;
+    box-shadow: 0 0 4px #ccc;
+}
+.button__Plis_Movies_Series:hover {
+    
+    border: 1px solid #f3f3f4;
+    box-shadow: 0 0 4px #ccc;
+}

@@ -1,0 +1,63 @@
+/* Estilos generales */
+
+
+.container__series {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.title__series {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.serie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.serie-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.serie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.serie-card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.serie-card p {
+    margin-bottom: 5px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .serie-list {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .serie-card {
+        padding: 10px;
+    }
+
+    .serie-card h2 {
+        font-size: 16px;
+    }
+}
